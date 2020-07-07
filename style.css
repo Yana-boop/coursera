@@ -27,3 +27,6 @@ a:visited{
 a:hover{
 	background-color: rgb(106,182,232);
 }
+h2{
+	color: red;
+}
