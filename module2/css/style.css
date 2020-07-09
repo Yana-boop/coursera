@@ -3,7 +3,6 @@
 }
 header{
   margin: 20px;
-  font-size: 175%;
   text-align: center;
 }
 body{
@@ -36,7 +35,6 @@ p{
   top: 0;
   right: 5%;
   margin: 0;
-  font-size: 125%
 }
 /********** Large devices only **********/
 @media (min-width: 992px) {
