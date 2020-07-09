@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  font-family: Comic Sans MS !important;
 }
 header{
   margin: 20px;
@@ -37,6 +38,16 @@ p{
   top: 0;
   right: 5%;
   margin: 0;
+}
+#sushi{
+  background-color: rgb(229,209,152);
+}
+#beef{
+  background-color: rgb(193,69,67); 
+  color: white;
+}
+#chiken{
+  background-color: rgb(213,152,152);
 }
 /********** Large devices only **********/
 @media (min-width: 992px) {
