@@ -1,0 +1,81 @@
+/*
+красный #a23c2d
+свветлый #eccc9b
+темный #cba46b
+самый темный #77554b
+зеленый #b3b373
+*/
+body {
+  font-size: 16px;
+  color: #77554b;
+  background-color: #eccc9b;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #cba46b;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+  height: 84px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #a23c2d;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #77554b;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: center;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+h2{
+  margin-bottom: 35px
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #a23c2d;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #b3b373;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle {
+  border: 1px solid #a23c2d;
+  margin-top: 24px;
+}
+.navbar-header .icon-bar{
+  border: 1px solid #a23c2d;
+}
+.navbar-header button.navbar-toggle {
+}
+@media (min-width: 768px) {
+  .navbar-toggle.collapsed, .collapse.navbar-collapse{
+    display: none !important;
+  }
+
+}
+/* END HEADER */
+.cont{
+  border: 2px solid #77554b;
+  background-color: #b3b373;
+  text-align: center;
+  margin-bottom:35px;
+  color: #77554b;
+}
+.row{
+  margin-left: 3%;
+  margin-right: 3%;
+}
