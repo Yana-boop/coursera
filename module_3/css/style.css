@@ -43,7 +43,6 @@ h2{
 }
 #nav-list a {
   color: #a23c2d;
-  text-align: center;
 }
 #nav-list a:hover {
   background: #b3b373;
@@ -71,7 +70,6 @@ h2{
 .cont{
   border: 2px solid #77554b;
   background-color: #b3b373;
-  text-align: center;
   margin-bottom:35px;
   color: #77554b;
 }
